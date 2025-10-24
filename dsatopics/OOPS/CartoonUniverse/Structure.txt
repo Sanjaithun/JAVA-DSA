@@ -1,0 +1,9 @@
+dsatopics/
+ └── OOPS/
+      ├── CartoonCharacter.java          ← Abstract base class (superclass)
+      ├── Doraemon.java                  ← Subclass #1
+      ├── ChhotaBheem.java               ← Subclass #2
+      ├── MotuPatlu.java                 ← Subclass #3
+      ├── NinjaHattori.java              ← Subclass #4
+      ├── CartoonUniverse.java           ← Manager / Controller class
+      └── InheritanceDemo.java           ← Main class (entry point)
