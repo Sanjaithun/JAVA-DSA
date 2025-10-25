@@ -34,7 +34,7 @@ public class linkedlist {
         Current.next = newNode;
      return 0;    
     }
-    public int deleteFront(){
+    public int deleteEnd(){
         Node Current = headNode;
         while(Current.next.next != null){
             Current = Current.next;
@@ -42,7 +42,7 @@ public class linkedlist {
         Current.next = null;
      return 0;    
     }
-    public int deleteEnd(){
+    public int deleteFront(){
         headNode = headNode.next;
 
      return 0;    
