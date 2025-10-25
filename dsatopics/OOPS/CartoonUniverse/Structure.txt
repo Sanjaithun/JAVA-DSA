@@ -7,3 +7,167 @@ dsatopics/
       ├── NinjaHattori.java              ← Subclass #4
       ├── CartoonUniverse.java           ← Manager / Controller class
       └── InheritanceDemo.java           ← Main class (entry point)
+
+
+
+⚙️ Design Overview
+1️⃣ Abstract Class — CartoonCharacter
+
+Purpose:
+Defines the base blueprint for all heroes.
+
+Attributes (protected):
+
+String heroName – Name of the character
+
+String powerType – Type of ability (gadgets, strength, etc.)
+
+int strengthLevel – Numeric strength indicator (1–100)
+
+Methods:
+
+Modifier	Method	Description
+public	showInfo()	Prints hero details (name, power, strength)
+public	setStrength(int newStrength)	Updates hero strength safely
+public	int getStrength()	Returns current strength level
+public abstract	displayPower()	To be implemented by subclasses – describes power usage
+public abstract	catchPhrase()	To be implemented by subclasses – prints hero’s unique dialogue
+
+OOP Concepts: Abstraction, Encapsulation, Inheritance.
+
+2️⃣ Subclass – Doraemon
+
+Extends: CartoonCharacter
+Unique Fields:
+
+String gadgetList – list or description of gadgets
+
+Overrides:
+
+displayPower() → shows how gadgets are used
+
+catchPhrase() → prints Doraemon’s quote
+
+Default strength: 80
+
+3️⃣ Subclass – ChhotaBheem
+
+Extends: CartoonCharacter
+
+Overrides:
+
+displayPower() → shows superhuman strength
+
+catchPhrase() → prints “Chhota Bheem to the rescue!”
+
+Default strength: 90
+
+4️⃣ Subclass – MotuPatlu
+
+Extends: CartoonCharacter
+
+Overrides:
+
+displayPower() → emphasizes teamwork between Motu & Patlu
+
+catchPhrase() → prints humorous tagline
+
+Default strength: 75
+
+5️⃣ Subclass – NinjaHattori
+
+Extends: CartoonCharacter
+
+Overrides:
+
+displayPower() → shows stealth/ninja techniques
+
+catchPhrase() → prints “Shinzo! Hattori to the action!”
+
+Default strength: 85
+
+6️⃣ Manager Class – CartoonUniverse
+
+Purpose:
+Acts as the controller that manages all heroes inside the universe.
+
+Attributes:
+
+ArrayList<CartoonCharacter> heroesList
+
+Methods:
+
+Method	Description
+public void addHero(CartoonCharacter hero)	Adds new hero to the list
+public void showAllHeroes()	Displays all heroes with details
+public void startBattle(CartoonCharacter h1, CartoonCharacter h2)	Simulates a battle based on strength and shows result
+private CartoonCharacter getWinner(CartoonCharacter h1, CartoonCharacter h2)	Internal helper method – decides winner
+public void trainHero(String heroName, int increment)	Increases strength for a specific hero (optional feature)
+
+OOP Concepts: Composition (managing multiple objects), Polymorphism (list of base-type references).
+
+7️⃣ Main / Driver Class – InheritanceDemo
+
+Purpose:
+Acts as the entry point of the project — this is where the entire simulation runs.
+
+Responsibilities:
+
+Create a CartoonUniverse object
+
+Instantiate all heroes (Doraemon, ChhotaBheem, MotuPatlu, NinjaHattori)
+
+Add heroes into the universe
+
+Display all hero details using showAllHeroes()
+
+Simulate 2–3 battles using startBattle()
+
+Optionally demonstrate training (strength increment)
+
+🧩 Relationships Overview
+Relationship	Type	Description
+CartoonCharacter ← Doraemon	Inheritance	“is-a” relationship
+CartoonCharacter ← ChhotaBheem	Inheritance	“is-a” relationship
+CartoonCharacter ← MotuPatlu	Inheritance	“is-a” relationship
+CartoonCharacter ← NinjaHattori	Inheritance	“is-a” relationship
+CartoonUniverse → CartoonCharacter	Composition	“has-many” relationship
+InheritanceDemo → CartoonUniverse	Usage	Driver invokes universe methods
+🧭 Execution Flow
+InheritanceDemo.main()
+        ↓
+Creates CartoonUniverse object
+        ↓
+Creates hero objects (Doraemon, Bheem, etc.)
+        ↓
+Adds them to universe
+        ↓
+Universe.showAllHeroes()  → prints hero details
+        ↓
+Universe.startBattle(h1, h2)  → uses overridden methods + strength to pick winner
+        ↓
+Displays result dynamically (via polymorphism)
+
+💡 Enhancement Ideas (Optional After Finishing Basic Version)
+
+Add a Shinchan class (new cartoon).
+
+Add a Scanner for user to choose heroes to battle.
+
+Store hero data in a file (for Day 9 learning).
+
+Add an interface SpecialMove for heroes with unique attacks (for Day 5).
+
+Create a Leaderboard class (Map of hero vs. wins).
+
+🧩 Learning Goals Recap
+
+By completing this structure and then implementing code:
+
+You’ll understand abstract class design.
+
+You’ll apply method overriding and dynamic dispatch clearly.
+
+You’ll manage multiple objects using ArrayList.
+
+You’ll connect conceptual design to real Java code.
