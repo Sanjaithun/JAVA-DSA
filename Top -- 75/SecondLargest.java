@@ -27,4 +27,57 @@ public class SecondLargest {
         }
         return res;
     }
+    int[] findmaxmin(int[] array){
+
+        int max = Integer.MIN_VALUE;
+        int min = Integer.MAX_VALUE;
+
+        for(int i : array){
+            if(i > max){
+                max = i;
+            }
+            if(i < min){
+                min = i;
+            }
+        }
+        int[] res = {min,max};
+        return res;
+
+    }
+    int[] findmaxminwhile(int[] a){
+        int max = Integer.MIN_VALUE;
+        int min = Integer.MAX_VALUE;
+
+        int i = 0 , j = a.length-1;
+
+        while(i < j){
+
+            if(a[i] > max){
+                max = a[i];
+            }
+            if(a[j] > max){
+                max = a[j];
+            }
+            if(a[i] < min){
+                min = a[i];
+            }
+            if(a[j] < min){
+                min = a[j];
+            }
+            i++;
+            j--;
+
+
+        }
+        int[] res = {min,max};
+        return res;
+
+    }
+
 }
+
+
+
+
+// sir is enough for leetcode 150 sums concepts to cover and those algorithms used
+

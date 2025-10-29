@@ -1,12 +1,13 @@
-
-
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
      
-        reversenum obj = new reversenum();
+        SecondLargest obj = new SecondLargest();
 
-        System.out.println(obj.reverse(123));
+        int[] array = {4,5,6,7,8};
 
+        System.out.println(Arrays.toString(obj.findmaxminwhile(array)));
+        
     }
 }
