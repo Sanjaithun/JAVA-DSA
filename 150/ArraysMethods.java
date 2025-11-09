@@ -43,6 +43,21 @@ public class ArraysMethods {
 
     }
 
+    int removedublicate(int[] array){
+
+        int i = 0;
+
+        for(int j = 1; j < array.length;j++){
+
+            if(array[i] != array[j]){
+                array[++i] = array[j];
+            }
+        }
+        return i;
+    }
+
+
+
 
 
 
