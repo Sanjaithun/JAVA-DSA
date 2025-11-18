@@ -14,7 +14,6 @@ public class ArraysMethods {
             else{
                 a[k--] = b[j--];
             }
-
         }
         while(j >= 0){
             a[k--] = b[j--];
@@ -39,8 +38,6 @@ public class ArraysMethods {
                 j++;
             }
         }
-        
-
     }
 
     int removedublicate(int[] array){
@@ -56,7 +53,14 @@ public class ArraysMethods {
         return i;
     }
 
+    int removedublicatetwice(int[] array){
 
+        int i = 0;
+        int check = 0;
+
+        for(int j = 0; j < )
+
+    }
 
 
 

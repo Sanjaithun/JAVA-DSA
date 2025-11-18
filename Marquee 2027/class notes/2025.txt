@@ -1,0 +1,107 @@
+Notes - 1
+
+public class Main
+{
+	public static void main(String[] args) 
+	{
+// 	    int n = 10;
+	    
+// 	    if((n%2)==0) 
+// 	    System.out.println("even");
+// 	    else
+// 	    System.out.println("Odd");
+	    
+	    
+// 	    if((n&1)==0) 
+// 	    System.out.println("even");
+// 	    else
+// 	    System.out.println("Odd");
+	    
+// 	    if(((n/2)*2)==n) // 10 = 10
+// 	    System.out.println("even");
+// 	    else
+// 	    System.out.println("Odd");
+	    
+	    
+	    
+// 	    String[] ans = {"even","odd"};
+// 		System.out.println(ans[n%2]);
+		
+	    // swapping with 3rd variable - method 1
+		
+// 		int n1 = 5, n2 = 10;
+// 		int temp = n1;
+// 		n1 = n2;
+// 		n2 = temp;
+// 		System.out.println(n1 +" "+ n2);
+		
+		
+// 		// without using third variable (+,-) -method 2
+// 		n1 = 5; 
+// 		n2 = 10;
+// 		n1 = n1 + n2;
+// 		n2 = n1 - n2;
+// 		n1 = n1 - n2;
+// 		System.out.println(n1 +" "+ n2);
+		
+		
+		// without using third variable (*,/) - method 3
+// 		n1 = 5; 
+// 		n2 = 10;
+// 		n1 = n1 * n2;
+// 		n2 = n1 / n2;
+// 		n1 = n1 / n2;
+// 		System.out.println(n1 +" "+ n2);
+		
+		
+// 		// without using third variable (^) -method 4
+// 		n1 = 5; 
+// 		n2 = 10;
+// 		n1 = n1 ^ n2;
+// 		n2 = n1 ^ n2;
+// 		n1 = n1 ^ n2;
+// 		System.out.println(n1 +" "+ n2);
+		
+		///////////////////////////////////////////
+		/// Instead of using + or - we can use ^ (xor)
+		
+		
+// 		System.out.println(053);
+		
+		
+		
+// 		char ch = 'X';
+// 		System.out.println((char)(ch^32));
+		
+// 		int character;
+// 		if(ch>=65 && ch<=90) // upper case conditon
+// 		character = ch + 32; // +32
+// 		else 
+// 		character = ch - 32; // -32
+		
+// 		System.out.println((char)(character));
+        
+	}
+}
+
+
+
+
+/*
+
+in xor => same - 0, different - 1 
+64 32 16 8 4 2 1
+1   0  0 0 0 0 1 - 65 (A)
+0   1  0 0 0 0 0 - 32 ^
+-----------------------
+1   1  0 0 0 0 1 - 97 (a)
+0   1  0 0 0 0 0 - 32 
+-----------------------
+1   0  0 0 0 0 1 - 65
+
+
+
+
+STREAMS : very very very important.
+
+*/
