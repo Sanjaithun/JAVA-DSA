@@ -1,0 +1,130 @@
+🧩 Level 1: Basic Number Understanding
+
+1. Check if a number is Positive / Negative / Zero
+
+2. Check if a number is Even or Odd
+
+3. Find Greatest of Two / Three Numbers
+
+4. Find Sum of Two / Three Numbers
+
+5. Swap Two Numbers (with & without third variable)
+
+---
+
+🔁 Level 2: Digits Manipulation
+
+6. Count the digits in a number
+
+7. Sum of digits of a number
+
+8. Reverse a number
+
+9. Check Palindrome number
+
+10. Product of digits
+
+11. Find first and last digit
+
+12. Sum of first and last digit
+
+13. Difference between sum of even & odd digits
+
+---
+
+🌟 Level 3: Special Numbers
+
+14. Armstrong Number (like 153 → 1³ + 5³ + 3³ = 153)
+
+15. Disarium Number (like 135 → 1¹ + 3² + 5³ = 135)
+
+16. Neon Number (square of number → sum of digits = number)
+
+17. Spy Number (sum of digits = product of digits)
+
+18. Automorphic Number (number present at end of its square)
+
+19. Magic Number (sum of digits → if single digit = 1)
+
+20. 
+
+21. Duck Number (contains zero but doesn’t start with zero)
+
+22. Harshad/Niven Number (divisible by sum of digits)
+
+23. Sunny Number (n+1 is a perfect square)
+
+24. Pronic Number (n = x*(x+1))
+
+25. Evil Number (binary form has even number of 1s)
+
+26. Buzz Number (ends with 7 or divisible by 7)
+
+---
+
+🧮 Level 4: Mathematical Operations
+
+27. Factorial of a number
+
+28. Factors of a number
+
+29. Sum of factors
+
+30. Perfect Number (6 => 1 + 2 + 3 = 6 , sum of factors = given number)
+
+31. Strong Number (sum of factorials of digits = number)
+
+32. Krishnamurthy Number (same as Strong Number)
+
+33. Prime Number check
+
+34. Prime Numbers in a range
+
+35. Prime Factorization
+
+36. Co-prime numbers
+
+37. Twisted Prime (reverse of a prime number is also prime) 
+
+38. Amicable Numbers (sum of proper divisors of each = other)
+
+39. Abundant / Deficient Numbers
+
+---
+
+🧠 Level 5: Advanced Logical Patterns
+
+40. Armstrong numbers in a range
+
+41. Palindrome numbers in a range
+
+42. Strong numbers in a range
+
+43. Prime numbers between two numbers
+
+44. Twisted Primes in a range
+
+45. Special numbers count in given range
+
+---
+
+💥 Most Asked Interview Questions
+
+46. Find GCD & LCM of two numbers
+
+47. Check Perfect Square
+
+48. Check Power of 2 or Power of N
+
+49. Find n-th Fibonacci number
+
+50. Check Fibonacci Number
+
+51. Sum of digits until single digit (digital root)
+
+52. Check Leap Year
+
+53. Number to Words Conversion, Roman Number Conversion
+
+54. Convert Binary ↔ Decimal ↔ Octal ↔ Hexadecimal
+---

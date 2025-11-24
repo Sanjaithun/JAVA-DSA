@@ -3,9 +3,7 @@ public class Main {
     public static void main(String[] args) {
        
         NumberBasis obj = new NumberBasis();
-
-        char array[] = {'a','b','a','b','s'};
-        obj.SingleCharacter(array);
+        obj.RemoveTrailingZeros(250);
 
 
     }

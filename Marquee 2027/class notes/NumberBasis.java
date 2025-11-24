@@ -1,26 +1,29 @@
 public class NumberBasis {
     
-    void GreatesOfNumber(int a, int b){
+    
+    void PositiveOrNegative(int num){
 
-        int res = (a - b) >> 31;
-        
-        System.out.println(res);
+        String[] check = {"Zero","Positive","Negative"};
+        int checkval = (num >> 31) | (-num >> 31);
+        System.out.println(check[checkval+1]);
+
 
     }
 
-    void SingleCharacter(char[] array){
+    void RemoveTrailingZeros(int num){
 
-        int checking[] = new int[26];
+        int count = 0;
 
-        for(int i = 0 ; i < array.length; i++ , checking[array[i] - 97]++);
-
-        for(int i = 0 ; i < checking.length; i++){
-            if(checking[i]==1)
-            System.out.print((char)(i+97));
+        while(num > 0){
+            num = num / 5;
+            count = count + num;
         }
-
+        System.out.println(count);
 
     }
+
+
+    
 
 
 
