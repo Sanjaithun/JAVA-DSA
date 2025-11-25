@@ -22,6 +22,21 @@ public class NumberBasis {
 
     }
 
+    void endWithnine(int val){
+
+        int res = (val / 9 ) + val;
+        System.out.println("Value is "+val + " The replace val is :"+res);
+
+    }
+
+    void containsNine(int val){
+        int num = val;
+        while(val > 0){
+            val = val / 9;
+        }
+
+    }
+
 
     
 

@@ -3,7 +3,7 @@ public class Main {
     public static void main(String[] args) {
        
         NumberBasis obj = new NumberBasis();
-        obj.RemoveTrailingZeros(250);
+        obj.endWithnine(50);
 
 
     }
