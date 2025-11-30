@@ -1,3 +1,7 @@
+
+import java.util.*;
+
+
 public class NumberBasis {
     
     
@@ -34,12 +38,68 @@ public class NumberBasis {
         while(val > 0){
             val = val / 9;
         }
+    }
+
+    void patterndouble(int n){
+        int temp = n;
+        for(int i = 0;i<temp;i++){
+
+            System.out.println((n+"").repeat(n) + " ".repeat(i*2) + (n+"").repeat(n));
+            n--;
+
+        }
+
+        /*
+999999999999999999
+88888888  88888888
+7777777    7777777
+666666      666666
+55555        55555
+4444          4444
+333            333
+22              22
+1                1
+        */
 
     }
 
 
-    
+    void reversearray(Integer[] array){
 
+        Collections.reverse(Arrays.asList(array));
+        System.out.println(Arrays.asList(array));
+
+    }
+  
+    void hashmapiung(int[] array){
+
+        HashMap <Integer , Integer> map = new HashMap<>();
+        int index = 0;
+        for(int i:array){
+
+            map.put(index++,i);
+
+        }
+
+        System.out.println(map.get(0));
+        System.out.println(map.get(2));
+
+    }
+    void frequentcy(int[] array){
+
+        HashMap <Integer,Integer> map = new HashMap<>();
+
+        int count = 0;
+
+        for(int i:array){
+
+            map.put(i,map.getOrDefault(i, 0)+1);
+        }
+            System.out.println(map);
+
+    }
+    
+    
 
 
 
