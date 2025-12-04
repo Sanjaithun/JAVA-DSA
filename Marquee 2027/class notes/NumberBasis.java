@@ -98,6 +98,24 @@ public class NumberBasis {
             System.out.println(map);
 
     }
+
+    void ArmstrongNumber(int val){
+
+        int digit = String.valueOf(val).length();
+        int sum = 0;
+        int valcheck = val;
+        
+
+        while(val>0){
+
+            int dig = val % 10;
+            sum = sum + (int)Math.pow(dig,digit);
+            val = val / 10;
+        }
+        System.out.println(sum == valcheck ? "Arm":"Not Arm");
+
+
+    }
     
     
 

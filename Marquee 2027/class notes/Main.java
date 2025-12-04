@@ -2,8 +2,8 @@ public class Main {
     public static void main(String[] args) {
        
         NumberBasis obj = new NumberBasis();
-        int[] array = {1,2,3,4,5,5,7,5,3,2};
-        obj.frequentcy(array);
+        int val = 153;
+        obj.ArmstrongNumber(val);
 
 
     }
