@@ -43,10 +43,8 @@ public class NumberBasis {
     void patterndouble(int n){
         int temp = n;
         for(int i = 0;i<temp;i++){
-
-            System.out.println((n+"").repeat(n) + " ".repeat(i*2) + (n+"").repeat(n));
+            System.out.println((n+"").repeat(n) + " ".repeat(i*2) + (n+"").repeat(n)); 
             n--;
-
         }
 
         /*
@@ -116,6 +114,18 @@ public class NumberBasis {
 
 
     }
+
+    void primeFactorization(int n){
+    for(int i = 2; i * i <= n; i++){
+        while(n % i == 0){
+            System.out.print(i + " ");
+            n /= i;
+        }
+    }
+    if(n > 1)  // remaining prime
+        System.out.print(n);
+}
+
     
     
 

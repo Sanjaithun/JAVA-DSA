@@ -1,9 +1,9 @@
+
 public class Main {
     public static void main(String[] args) {
        
         NumberBasis obj = new NumberBasis();
-        int val = 153;
-        obj.ArmstrongNumber(val);
+        obj.primeFactorization(2648);
 
 
     }

@@ -1,0 +1,13 @@
+public class practiejava {
+    
+    public static void main(String[] args) {
+         
+        
+    }
+
+}
+// String reverseWords(String s) {
+//     String[] parts = s.trim().split("\\s+");
+//     Collections.reverse(Arrays.asList(parts));
+//     return String.join(" ", parts);
+// }
