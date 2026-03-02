@@ -43,5 +43,6 @@ public class day {
         }
         System.out.println("Total times to compare : "+count);
     }
+    
 
 }
