@@ -7,7 +7,7 @@ public class Main {
         ArraysMethods obj = new ArraysMethods();
         int[] array = {0,0,1,2,3,4,4};
         
-        int unique = obj.removedublicate(array);
+        int unique = obj.removeduplicate(array);
 
         System.out.println(Arrays.toString(Arrays.copyOf(array, unique)));
 
