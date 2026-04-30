@@ -1,0 +1,62 @@
+Afghanistan,Kabul,Kabul International Airport,KBL
+Algeria,Algiers,Houari Boumediene Airport,ALG
+Argentina,Buenos Aires,Ministro Pistarini International Airport,EZE
+Australia,Canberra,Canberra Airport,CBR
+Austria,Vienna,Vienna International Airport,VIE
+Bangladesh,Dhaka,Hazrat Shahjalal International Airport,DAC
+Belgium,Brussels,Brussels Airport,BRU
+Brazil,Brasília,Brasília International Airport,BSB
+Canada,Ottawa,Ottawa Macdonald-Cartier International Airport,YOW
+China,Beijing,Beijing Capital International Airport,PEK
+Colombia,Bogotá,El Dorado International Airport,BOG
+Cuba,Havana,José Martí International Airport,HAV
+Denmark,Copenhagen,Copenhagen Airport,CPH
+Egypt,Cairo,Cairo International Airport,CAI
+Ethiopia,Addis Ababa,Addis Ababa Bole International Airport,ADD
+Finland,Helsinki,Helsinki-Vantaa Airport,HEL
+France,Paris,	harles de Gaulle Airport,CDG
+Germany,Berlin,Berlin Brandenburg Airport,BER
+Greece,Athens,Athens International Airport,ATH
+India,New Delhi,Indira Gandhi International Airport,DEL
+Indonesia,Jakarta,Soekarno–Hatta International Airport,CGK
+Iran,Tehran,Imam Khomeini International Airport,IKA
+Iraq,Baghdad,Baghdad International Airport,BGW
+Ireland,Dublin,Dublin Airport,DUB
+Israel,Jerusalem,Ben Gurion Airport,TLV
+Italy,Rome,Leonardo da Vinci–Fiumicino Airport,FCO
+Japan,Tokyo,Haneda Airport,HND
+Jordan,Amman,Queen Alia International Airport,AMM
+Kenya,Nairobi,Jomo Kenyatta International Airport,NBO
+Kuwait,Kuwait City,Kuwait International Airport,KWI
+Lebanon,Beirut,Beirut-Rafic Hariri International Airport,BEY
+Libya,Tripoli,Tripoli International Airport,TIP
+Malaysia,Kuala Lumpur,Kuala Lumpur International Airport,KUL
+Mexico,Mexico City,Mexico City International Airport,MEX
+Morocco,Rabat,Rabat-Salé Airport,RBA
+Netherlands,Amsterdam,Amsterdam Airport Schiphol,AMS
+New Zealand,Wellington,Wellington International Airport,WLG
+Nigeria,Abuja,Nnamdi Azikiwe International Airport,ABV
+Norway,Oslo,Oslo Airport Gardermoen,OSL
+Pakistan,Islamabad,Islamabad International Airport,ISB
+Philippines,Manila,Ninoy Aquino International Airport,MNL
+Poland,Warsaw,Warsaw Chopin Airport,WAW
+Portugal,Lisbon,Lisbon Airport,LIS
+Qatar,Doha,Hamad International Airport,DOH
+Russia,Moscow,Sheremetyevo International Airport,SVO
+Saudi Arabia,Riyadh,King Khalid International Airport,RUH
+Singapore,Singapore,Singapore Changi Airport,SIN
+South Africa,Pretoria,O. R. Tambo International Airport,JNB
+South Korea,Seoul,Incheon International Airport,ICN
+Spain,Madrid,Adolfo Suárez Madrid–Barajas Airport,MAD
+Sweden,	Stockholm,Stockholm Arlanda Airport,ARN
+Switzerland,Bern,Bern Airport,BRN
+Syria,Damascus,Damascus International Airport,DAM
+Thailand,Bangkok,Suvarnabhumi Airport,BKK
+Tunisia,Tunis,Tunis–Carthage Airport,TUN
+Turkey,Ankara,Esenboğa International Airport,ESB
+UAE,Abu Dhabi,Abu Dhabi International Airport,AUH
+UK,London,Heathrow Airport,LHR
+USA,Washington D.C.,Dulles International Airport,IAD
+Uruguay,Montevideo,Carrasco International Airport,MVD
+Venezuela,Caracas,Simón Bolívar International Airport,CCS
+Vietnam,Hanoi,Noi Bai International Airport,HAN

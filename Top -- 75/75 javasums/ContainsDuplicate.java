@@ -1,10 +1,11 @@
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
 public class ContainsDuplicate {
 
-    boolean CheckContainsDuplicate(int[] Array,int size) {
+    static boolean CheckContainsDuplicate(int[] Array,int size) {
 
-        Set <Integer> seen = new HashSet<>();
+        ArrayList<Integer> seen = new ArrayList<>();
 
         for (int num : Array) {
        
@@ -14,6 +15,13 @@ public class ContainsDuplicate {
             seen.add(num);
         }
         return false;
+    }
+
+    static void main() {
+        int[] array = {1,2,3,4,5};
+        int len = array.length;
+        System.out.println(CheckContainsDuplicate(array , len));
+
     }
 
 }

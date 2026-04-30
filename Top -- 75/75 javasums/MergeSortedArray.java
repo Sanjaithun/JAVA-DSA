@@ -4,6 +4,7 @@ public class MergeSortedArray {
         int Num1Pointer = m - 1;
         int Num2Pointer = n - 1;
         int TotalNum = m + n -1;
+
         while(Num1Pointer >= 0 && Num2Pointer >= 0){
             if(arr1[Num1Pointer] > arr2[Num2Pointer]){
                 arr1[TotalNum] = arr1[Num1Pointer];

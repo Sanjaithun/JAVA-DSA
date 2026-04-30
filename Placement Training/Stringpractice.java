@@ -2,8 +2,8 @@ import java.util.*;
 
 public class Stringpractice {
     public static void main(String[] args) {
-        String str = "ajithkumar";
-        String str1 = "shalini";
+        String str = "pramoth";
+        String str1 = "pavithra pramoth";
         Flames(str, str1);
     }
     static String reverse(String str){
