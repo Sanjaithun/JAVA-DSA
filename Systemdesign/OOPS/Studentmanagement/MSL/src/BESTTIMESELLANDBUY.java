@@ -1,6 +1,6 @@
 public class BESTTIMESELLANDBUY {
     static void main() {
-        int[] array = {7,1,5,3,6,4,10,2,20};
+        int[] array = {7,1,5,3,4,10,2,20};
         int len = array.length;
         int maxprofit = besttime(array,len);
         System.out.println(maxprofit);
